@@ -1,0 +1,11 @@
+### Example user template template
+### Example user template
+composer.phar
+/vendor/
+/node_modules/
+/bin/
+.package-lock.json
+.composer.lock
+# IntelliJ project files
+/.idea
+composer.lock

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp483083149b704de4941ddd275707a73a">
+  <meta>
+    <name>Caso_de_uso_1</name>
+    <authors>Sebastian David lizarazo Duarte</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>59</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-6608b470a83e40b2b8b64ab080df3c8c" name="" task-id-sequence="0">
+    <working-schedule uid="ws-fb6d1928dbab42c2adfee0cb0368fb16" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Sebastian David lizarazo</first-name>
+        <last-name>Duarte</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-61ffbf9adf844a8582f3be85b5c53321" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Sebastian David lizarazo</first-name>
+        <last-name>Duarte</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-9a2e1f06afd3426ea969c908583c7a31" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="pd71dfaf6b960435a848d381ef8d8442c_177700744" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>07/19/2021 17:45:56</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p1916429e0fe7402082aec4e304feadb3_982276846" name="UseCaseDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="130,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>07/19/2021 17:45:56</creation-date>
+          <change-date>07/19/2021 17:57:13</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="b2eb7898a10545d2b5f8a8b2f8261d52" cid="UC001" type="use-case" name="Seleccionar producto" style-class="" change-tracking-state="added" creator="" creation-date="07/19/2021 17:49:24">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="f90c3ac00cfd49dcbdd387eafe7cc866" cid="AC001" type="actor" name="Administrador" style-class="" change-tracking-state="added" creator="" creation-date="07/19/2021 17:50:34" />
+          <item id="4137e6a34eb9490eb8bb20e39b4b9bf6" cid="REL001" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="07/19/2021 17:52:03" from="f90c3ac00cfd49dcbdd387eafe7cc866" to="b2eb7898a10545d2b5f8a8b2f8261d52" visibility="package">
+            <relation from="f90c3ac00cfd49dcbdd387eafe7cc866" to="b2eb7898a10545d2b5f8a8b2f8261d52" derived="false">
+              <start-role id="umlar-b3990797-776c-4f7c-b0c5-c3a7fbdb3f7f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-b688e8fd-e626-4c7f-8791-9d325f504956" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="efe7d5a08dbe4de5837eb80104d4d848" cid="UC002" type="use-case" name="Modificar producto" style-class="" change-tracking-state="added" creator="" creation-date="07/19/2021 17:52:14">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="di2c0440c3e629469abe65d2e3111471958553" cid="UC003" type="use-case" name="Crear producto" style-class="" change-tracking-state="added" creator="" creation-date="07/19/2021 17:52:14" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+          <item id="didc02952ab7314da0be4e1d29b1808d224024" cid="UC004" type="use-case" name="Eliminar producto" style-class="" change-tracking-state="added" creator="" creation-date="07/19/2021 17:52:14" visibility="undefined">
+            <use-case>
+              <stakeholders />
+            </use-case>
+          </item>
+        </abstract-items>
+        <layer id="71079a6125c743c7a70fd421ef9184be" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b2eb7898a10545d2b5f8a8b2f8261d52" iid="aa5dd5b52841437ba70292686d0d76a8" creation-date="07/19/2021 17:49:24" order-index="0" type="entity">
+            <layout ax="169" ay="74.5" awidth="120" aheight="75" x="169" y="74.5" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="f90c3ac00cfd49dcbdd387eafe7cc866" iid="0cb32533abd6401794e2b0e6dfcc307d" creation-date="07/19/2021 17:50:34" order-index="1" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="-22" ay="62" awidth="50" aheight="100" x="-22" y="62" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="4137e6a34eb9490eb8bb20e39b4b9bf6" iid="6f9eb0bec9804bb69e43a8ef5043bb12" creation-date="07/19/2021 17:52:03" order-index="2" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="28" y1="112" x2="169" y2="112" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="50" end-local-pos="37.5" name-position="0,20">
+              <points>
+                <point x="28" y="112" />
+                <point x="169" y="112" />
+              </points>
+            </layout>
+            <relation from="f90c3ac00cfd49dcbdd387eafe7cc866" from-iid="0cb32533abd6401794e2b0e6dfcc307d" to="b2eb7898a10545d2b5f8a8b2f8261d52" to-iid="aa5dd5b52841437ba70292686d0d76a8" />
+          </item>
+          <item id="efe7d5a08dbe4de5837eb80104d4d848" iid="62072169dae1456f8c866ef4e296efa0" creation-date="07/19/2021 17:52:14" order-index="3" type="entity">
+            <layout ax="360" ay="70" awidth="135" aheight="84" x="360" y="70" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="di2c0440c3e629469abe65d2e3111471958553" iid="10d326c8b8304fa09616358a2e7b7e7d" creation-date="07/19/2021 17:52:14" order-index="3" type="entity">
+            <layout ax="339" ay="-100" awidth="135" aheight="84" x="339" y="-100" width="120" height="75" />
+            <use-case />
+          </item>
+          <item id="didc02952ab7314da0be4e1d29b1808d224024" iid="960a34cfcf9348e5b2a11e40d328308b" creation-date="07/19/2021 17:52:14" order-index="3" type="entity">
+            <layout ax="360" ay="221" awidth="135" aheight="84" x="360" y="221" width="120" height="75" />
+            <use-case />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-usecase" id="p71c022edae5f4d788a12917cb39981c7_437807626" name="UseCaseDiagram2" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>07/19/2021 17:46:56</creation-date>
+          <change-date>07/19/2021 17:46:56</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="f846e00ac7924fd7b21f4e0f1fef6230" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+  </models>
+</sim-project>
